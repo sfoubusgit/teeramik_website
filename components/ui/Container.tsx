@@ -6,7 +6,7 @@ type ContainerProps = {
   children: React.ReactNode;
   className?: string;
   size?: ContainerSize;
-  as?: keyof JSX.IntrinsicElements;
+  as?: React.ElementType;
 };
 
 const sizeStyles: Record<ContainerSize, string> = {

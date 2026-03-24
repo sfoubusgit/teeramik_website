@@ -5,7 +5,7 @@ type TextSize = "body" | "lead" | "small";
 
 type TextProps = {
   children: React.ReactNode;
-  as?: keyof JSX.IntrinsicElements;
+  as?: React.ElementType;
   size?: TextSize;
   tone?: TextTone;
   className?: string;

@@ -5,7 +5,7 @@ type SectionHeadingProps = {
   description?: string;
   eyebrow?: string;
   align?: "left" | "center";
-  as?: keyof JSX.IntrinsicElements;
+  as?: React.ElementType;
   className?: string;
 };
 
